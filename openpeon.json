@@ -1,0 +1,43 @@
+{
+  "cesp_version": "1.0",
+  "name": "stronghold-sultan",
+  "display_name": "The Sultan (Stronghold Crusader)",
+  "version": "1.0.0",
+  "author": { "name": "Marko Jevic", "github": "koyev" },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/start_1.mp3", "label": "Greeting 1" },
+        { "file": "sounds/start_2.mp3", "label": "Greeting 2" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/complete_1.mp3", "label": "Done 1" },
+        { "file": "sounds/complete_2.mp3", "label": "Done 2" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/permission_1.mp3", "label": "Needs attention" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/error_1.mp3", "label": "Error" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/limit_1.mp3", "label": "Limit hit" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/spam_1.mp3", "label": "Too many prompts" }
+      ]
+    }
+  }
+}
